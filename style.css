@@ -10,7 +10,7 @@
 
 * {
   font-family: "Josefin Sans", sans-serif;
-  font-size: 1rem;
+  font-size: 1.5rem;
   color: var(--black);
   overflow-x: hidden;
 }
@@ -43,7 +43,6 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   background-color: transparent;
-  font-size: 2rem;
   opacity: 1;
   transition: opacity 1s;
 }
@@ -58,12 +57,12 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   border: none;
-  color: white;
+  color: var(--black);
   background-color: transparent;
-  font-size: 4rem;
   opacity: 0;
   transition: opacity 0.5s;
   display: none;
+  user-select: none;
 }
 
 .start.fadeIn {
@@ -76,6 +75,7 @@ body {
 
 @media (hover: hover) and (pointer: fine) {
   .start:hover {
-    color: var(--dark-green);
+    color: var(--light-green);
+    cursor: pointer;
   }
 }
