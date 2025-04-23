@@ -1,5 +1,5 @@
 {
-  "name": "portfolio",
+  "name": "template",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,10 +9,14 @@
     "preview": "vite preview"
   },
   "devDependencies": {
-    "vite": "^6.3.1"
+    "vite": "^6.3.2"
   },
   "dependencies": {
-    "three": "^0.175.0",
-    "zustand": "^5.0.3"
+    "@dimforge/rapier3d": "^0.14.0",
+    "three": "^0.168.0",
+    "tweakpane": "^4.0.4",
+    "vite-plugin-top-level-await": "^1.5.0",
+    "vite-plugin-wasm": "^3.4.1",
+    "zustand": "^4.5.6"
   }
 }
